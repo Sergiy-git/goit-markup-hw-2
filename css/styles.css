@@ -20,8 +20,6 @@ ul {
     color: var(--primary-text-color);
     background-color: var(--background-page-color);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
 }
 
 
@@ -65,7 +63,7 @@ ul {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -84,8 +82,8 @@ background-color: #2F303A;
 .hero-title {
     color: var(--light-text-color);
     font-weight: 900;
-    font-size: 1.36;
-    line-height: 60px;
+    font-size: 44px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -132,7 +130,6 @@ background-color: #2F303A;
 }
 
 .sections-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -222,14 +219,14 @@ background-color: #2F303A;
     color: var(--light-text-color);
 }
 
-.portfolio-examples h2 {
-    font-weight: 700;
+
+.portfolio-examples-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio-examples p {
+.portfolio-examples-text {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
